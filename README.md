@@ -10,5 +10,5 @@ Twitch API
 
 ## Skills
 - 使用 Fetch API 串接 Twitch API
-- 使用 JQuery. CSS. HTML
+- 使用 Javascript. JQuery. CSS. HTML
 - 部署於 vercel.com
