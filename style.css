@@ -1,0 +1,174 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  background: #1c1c1c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__top-games {
+  box-sizing: border-box;
+  background: #9145ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar__game {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  font-family: 'Squada One', cursive;
+  font-size: 24px;
+  padding: 20px 0;
+  word-wrap:break-word;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.navbar__game:last-child {
+  margin-right: 0px;
+}
+
+
+.navbar__game:hover {
+  text-decoration: underline;
+}
+
+.navbar__game:active {
+  color:rgb(238, 124, 255);
+}
+
+.streams {
+  padding: 100px 20px 20px 20px;
+  text-align: center;
+}
+
+.stream__block {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(to left, #db00fc, #1d00ff);
+  width: 300px;
+  height: 300px;
+  background: #1c1c1c;
+  display: inline-block;
+  margin: 15px 15px 30px 15px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.stream__block:hover {
+  box-shadow: 0 1px 24px 1px rgba(176, 176, 176, 0.8);
+}
+
+.stream__preview {
+  background-size: cover;
+  width: 100%;
+  height: 70%;
+}
+
+.stream__info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  padding: 0px 10px;
+}
+
+
+.stream__logo {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-right: 15px;
+}
+
+.stream__content {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: left;
+  width: 65%;
+}
+
+.stream__game {
+  font-weight:  bold;
+  font-size: 20px;
+  margin-bottom: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.stream__display-name {
+  margin-bottom: 2px;
+}
+
+.stream__viewers {
+  display: inline-block;
+  color:#8c8b8b;
+}
+
+.watch-more__block {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px 40px 20px;
+}
+
+.watch-more__btn {
+  border: none;
+  background: none;
+  color: #7b7a7a;
+  font-size: 40px;
+  font-family: 'Squada One', cursive;
+  cursor: pointer;
+}
+
+.watch-more__btn:hover {
+  color: white;
+}
+
+.watch-more__btn:active {
+  color: #aeaeae;
+}
+
+
+.no-more-results {
+  color: #7b7a7a;
+  font-size: 40px;
+  font-family: 'Squada One', cursive;
+}
+
+@media screen and (max-width: 768px){
+  .navbar__top-games {
+    padding: 0 20px;
+  }
+  .streams {
+    padding: 120px 20px 30px 20px;
+  }
+}
+
+@media screen and (max-width: 525px){
+  .navbar__top-games {
+    padding: 0 10px;
+  }
+  .streams {
+    padding: 140px 20px 30px 20px;
+  }
+  .navbar__game {
+    padding: 20px 10px;
+    word-break: break-all;
+    margin-right: 10px;
+  }
+  
+  .navbar__game:last-child {
+    margin-right: 0px;
+  }
+}
