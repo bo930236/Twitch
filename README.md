@@ -1,6 +1,6 @@
 # Twitch API
 
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://twitch-git-master-bo930236.vercel.app" "前往 DEMO")
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://twitch-hotgames.vercel.app/" "前往 DEMO")
 
 ## Features
 
