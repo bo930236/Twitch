@@ -4,8 +4,10 @@
 
 ## Features
 
-- 瀏覽 Twitch 最熱門遊戲直播
-- Navbar 會顯示目前最熱門五種遊戲直播
+- 瀏覽 Twitch 最熱門的五種遊戲直播
+- 頁面往下會持續提供直播頻道資訊
+- 點擊縮圖可以前往 Twitch 收看頻道
+![Twitch Demo](https://img.onl/Nj0IcW)
 
 ## Skills
 
