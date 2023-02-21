@@ -1,0 +1,23 @@
+{
+  "name": "twitch",
+  "version": "1.0.0",
+  "description": "Use API to connect twitch's top five categories for games. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bo930236/Twitch.git"
+  },
+  "author": "bo930236",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bo930236/Twitch/issues"
+  },
+  "homepage": "https://github.com/bo930236/Twitch#readme",
+  "dependencies": {
+    "eslint": "^8.34.0",
+    "prettier": "^2.8.4"
+  }
+}
